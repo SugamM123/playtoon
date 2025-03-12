@@ -38,6 +38,7 @@ function App() {
               type="color" 
               value={backgroundColor} 
               onChange={(e) => setBackgroundColor(e.target.value)}
+              className="input"
             />
 
             <button className="reset" onClick={() => setBackgroundColor('#eeee')}>
